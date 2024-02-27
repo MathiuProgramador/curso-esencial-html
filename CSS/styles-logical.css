@@ -2,7 +2,7 @@
     font-family: charter;
     src: url("/fonts/fonts/charter-regular.otf");
     font-style: normal;
-    font-weight: 400;
+    font-weig   : 400;
 }
 @font-face { 
     font-family: charter;
@@ -38,9 +38,6 @@ body {
 a { 
     color: var(--white30);
 } 
-.header { 
-
-}
 .header-content {
     padding-inline: 20px; 
 
@@ -94,6 +91,7 @@ pre {
     border-inline-start: 5px solid white;
     border-block-end: 20px solid pink;
     border-inline-end: 5px solid green;
+    border-block-start: blue;
     border: 10px solid #5551FF;
     box-shadow: -10px 10px 0 0 #ABAAF6;
 }
@@ -127,7 +125,6 @@ blockquote {
     border-radius: 8px;
     line-height: 32px;
     font-size: 24px;
-    background-color: var(--white30);
     padding-inline-end: 24px;
     padding-inline-start: 24px;
     padding-block-start: 24px;
@@ -197,7 +194,7 @@ blockquote p {
 .form ::-webkit-input-placeholder { 
     color: var(--white20);
 }
-@media screen and (min-widt: 1366px) {
+@media screen and (min-width: 1366px) {
     .hero {
         block-size: 350px;
     }
